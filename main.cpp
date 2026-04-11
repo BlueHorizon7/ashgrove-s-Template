@@ -21,8 +21,8 @@ using u64  = uint64_t;
 using u32  = uint32_t;
 using i64  = int64_t;
 
-// CAUTION
-#define int ll          // ← comment out if int overflow not needed
+// CAUTION: USE ONLY IF OVERFLOW NEEDED, OTHERWISE IT WILL BREAK ENTIRE CODE.
+// #define int ll          // ← comment out if int overflow not needed
 
 template<class T>       using vc   = vector<T>;
 template<class T>       using vvc  = vc<vc<T>>;
