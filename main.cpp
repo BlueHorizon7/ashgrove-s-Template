@@ -65,8 +65,6 @@ using ordered_map = tree<K,V,less<K>,rb_tree_tag,tree_order_statistics_node_upda
 #define sz(x)        (int)(x).size()
 #define Yes(e)       cout<<"Yes\n"; if(e)return
 #define No(e)        cout<<"No\n";  if(e)return
-#define YES(e)       cout<<"YES\n"; if(e)return
-#define NO(e)        cout<<"NO\n";  if(e)return
 
 #ifdef LOCAL
 #define dmp(x)       cerr<<__LINE__<<" "<<#x<<" = "<<(x)<<"\n"
